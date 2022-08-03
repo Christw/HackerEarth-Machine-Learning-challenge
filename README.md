@@ -13,5 +13,25 @@ To not let discounts affect local artists, the company has decided to determine 
 
 ### Data
 
+#### Data description
+Column	Description
+Item_Id	Unique item ID
+Date	Date
+State_of_Country	State no. of the country
+Market_Category	
+Category of the market to which the product belongs to
+
+Product_Category	Category of the product
+Grade	Quality of the product
+Demand	Demand rate of the product in the market
+Low_Cap_Price [Target]	Lowest price that can be offered 
+High_Cap_Price	Original maximum price in the current market
+Data files
+
+The dataset folder consists of the following files:
+
+Train.csv: Contains training data [9798 x 9] that must be used to build the model
+Test.csv: Contains test data [5763 x 8] to be predicted on
+sample_submission.csv: Contains sample submission format with dummy values filled for test data
 
 ### Result
