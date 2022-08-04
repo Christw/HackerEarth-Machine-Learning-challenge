@@ -7,6 +7,7 @@ A leading global leader of e-commerce has over 150 million paid subscription use
 
 
 ### Project Summary
+Use machine learning to predict the lowest price with Python.
 
 ### Purpose
 To not let discounts affect local artists, the company has decided to determine the lowest price at which a particular good can be sold. Your task is to build a predictive model using Machine Learning that helps them set up a lowest-pricing model for these products.
@@ -35,3 +36,5 @@ The dataset folder consists of the following files:
 
 
 ### Result
+After cleaning raw data, I tested a number of independent variables and found the significant features. Then, I utilized them to train a model and predicted the lowest price. Finally, this outcome got me the 51th prize.
+<img width="1440" alt="截圖 2022-08-04 下午9 15 18" src="https://user-images.githubusercontent.com/67684645/182856141-d2316182-4f0f-4486-b6d2-c830510b29e7.png">
